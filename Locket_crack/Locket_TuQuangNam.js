@@ -50,4 +50,7 @@ if (match) {
   obj.subscriber.entitlements.pro = premiumData;
 }
 
-$done({ body: JSON.stringify(obj) });
+$done({ body: JSON.stringify(obj)
+      $notification.post("🎉 Kích hoạt Premium thành công", "Bạn đã là thành viên Gold", "Chúc bạn sử dụng vui vẻ!");
+});
+
