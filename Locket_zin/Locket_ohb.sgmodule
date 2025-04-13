@@ -1,9 +1,9 @@
 #!url=https://raw.githubusercontent.com/tuquangnam07/Tu_Quang_Nam_Crack/refs/heads/main/Locket_zin/Locket_ohb.sgmodule
-#!name=Locket-Ohoang7_Gold
-#!desc=Crack By Ohoang7
+#!name=Locket-Từ_Quang_Nam_Gold
+#!desc=Crack By Từ Quang Nam
 
 [Script]
-# ~ By Vuong2023
+# ~ By Từ Quang Nam
 # ～ Egern transfer to Shadowrocket & Surge & LanceX
 revenuecat = type=http-response, pattern=^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$), script-path=https://raw.githubusercontent.com/tuquangnam07/Tu_Quang_Nam_Crack/refs/heads/main/Locket_zin/Locket_Ohoang7.js, requires-body=true, max-size=-1, timeout=60
 
