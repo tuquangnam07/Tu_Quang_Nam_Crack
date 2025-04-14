@@ -1,0 +1,13 @@
+#!name=SoundCloud Go+ (Copyright by Từ Quang Nam)
+#!desc=SoundCloud Go+ Unlock Script | Copyright by Từ Quang Nam
+#!Copyright by Từ Quang Nam
+#!Facebook: https://www.facebook.com/tuquangnam07
+#!Tik Tok: https://www.tiktok.com/@tuquangnam07
+#!Youtube: https://www.youtube.com/@tuquangnam
+#!Instagram https://www.instagram.com/tuquangnam07
+
+[Script]
+SoundCloudGo+=type=http-response,pattern=https://api-mobile.soundcloud.com/configuration/ios,requires-body=1,script-path=https://raw.githubusercontent.com/tuquangnam07/Tu_Quang_Nam_Crack/refs/heads/main/Soundcloud_crack/soundcloud.js
+
+[MITM]
+hostname= %APPEND% api-mobile.soundcloud.com
